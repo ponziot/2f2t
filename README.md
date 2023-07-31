@@ -1,3 +1,3 @@
-# Segundo Trimestre - mobile-first
+# Segundo Trimestre-mobile-first
 
-Matheus Ponzio - 27
+Estela-13

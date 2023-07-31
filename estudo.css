@@ -1,39 +1,39 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 body {
-    background-color: black;
+background-color:rgb(248, 241, 250) ;
 }
-.item {
-    width: 100px;
+.item{
+    width: 370px;
     height: 100px;
-    background-color: chartreuse;
-    color: red;
+    background-color: deeppink;
+    color:antiquewhite;
     margin: 10px;
 }
-.conteudo {
-   display: grid;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+.conteudo{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
 }
 .barra{
-    background-color: rgba(21, 141, 71, 0.5);
+    background-color: rgb(174, 6, 252);
     height: 20vh;
     grid-area: barra;
 }
-
 .principal{
-    background-color: rgb(40, 114, 30);
+    background-color: rgb(123, 4, 192);
     height: 60vh;
     grid-area: principal;
 }
 .lado{
-    background-color:rgb(32, 180, 76);
-    height: 60vh; 
-    grid-area: lado;
+    background-color: rgb(87, 6, 134);
+    height: 60vh;
+    grid-area: lado
 }
 .rodape{
-    background-color:rgb(16, 255, 96);
+    background-color: rgb(178, 141, 187);
     height: 20vh;
     grid-area: rodape;
 }
@@ -44,4 +44,5 @@ body {
                     "barra barra"
                     "lado principal"
                     "rodape rodape";
+
 }
